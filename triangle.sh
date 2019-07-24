@@ -30,3 +30,19 @@ type() {
         else
             echo "Треугольник обычный"
         fi
+
+    fi
+
+}
+
+run_tests() {
+    set -x -e
+
+
+}
+if [ "$1" = "--test" ]; then
+    run_tests
+else
+    type $a1 $b1 $c1
+fi
+
