@@ -1,6 +1,7 @@
 #!/bin/sh -xe
 
-APP=${1-./triangle.sh}
+#APP=${1-./triangle.sh}
+APP=$1
 
 expect_success() {
     set -e
