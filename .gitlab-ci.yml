@@ -6,4 +6,4 @@ stages:
 run tests:
   stage: test
   script:
-    - triangle/test.sh
+    - triangle/test.sh /builds/psydeep/lessons/triangle/triangle.sh

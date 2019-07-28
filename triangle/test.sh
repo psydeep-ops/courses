@@ -2,8 +2,8 @@
 ls -la
 echo $PWD
 
-APP=${1-./triangle/triangle.sh}
-#APP=$1
+#APP=${1-./triangle/triangle.sh}
+APP=$1
 
 expect_success() {
     set -e
