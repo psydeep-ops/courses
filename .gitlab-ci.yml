@@ -1,4 +1,4 @@
 image: bash
 
 run tests:
-    script: ./test.sh triangle.sh
+    script: ./test.sh ./triangle.sh
