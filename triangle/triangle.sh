@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #echo "Стороны треугольника через пробел:"
 read a1 b1 c1
 #echo ---OK---
