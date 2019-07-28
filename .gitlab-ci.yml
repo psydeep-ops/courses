@@ -1,4 +1,9 @@
 image: bash
 
+stages:
+  - test
+
 run tests:
-    script: triangle/test.sh triangle/triangle.sh
+  stage: test
+  script:
+    - triangle/test.sh triangle/triangle.sh
