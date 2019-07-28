@@ -15,9 +15,12 @@ type() {
         return 1
     fi
 
-    let ab=$a+$b
-    let bc=$b+$c
-    let ca=$c+$a
+#    let ab=$a+$b
+#    let bc=$b+$c
+#    let ca=$c+$a
+    ab=$(($a+$b))
+    bc=$(($b+$c))
+    ca=$(($c+$a))
 
     if [ ! $ab -gt $c -o ! $bc -gt $a -o ! $ca -gt $b ]
 #    then echo "Треугольник не существует!"
