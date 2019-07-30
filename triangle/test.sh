@@ -1,6 +1,4 @@
 #!/bin/sh -xe
-ls -la
-echo $PWD
 
 #APP=${1-./triangle/triangle.sh}
 APP=$1
